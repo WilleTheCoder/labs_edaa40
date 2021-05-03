@@ -1,0 +1,79 @@
+(use 'edaa40.lab1 :reload)
+(1 2)
+'(1 2)
+(use 'edaa40.lab1 :reload)
+(set 1 2)
+(set (1 2 3))
+(set [1 2 3]])
+(set [1 2 3])
+(set 1)
+(set (1))
+(#(set 1))
+(#(set [1]))
+(println "sup)
+))
+(println "hello"))
+(println "hello")
+var x
+(def x 1)
+xx
+x
+(x)
+(inc x)
+x
+(for x [1 2 3] y [2 3 4]
+(for [ x [1 2 3]
+y [2 3 4]]
+(* x y)
+)
+(for [ x [1 2 3] y [2 3 4]]
+(x y)
+)
+(for [ x [1 2 3] y [2 3 4]]
+'(x y)
+)
+( def a #{1 2})
+a
+(def b #{3 4})
+b
+a
+(set(for [a b])
+)
+(set(for [x a y b] [a b]))
+(for [x a y b] [a b])
+(use 'edaa40.lab1 :reload)
+a
+b
+(for [x a y b] [x,y])¨
+(for [x a y b] [x,y])
+(for [x a y b] [x y])
+(set(for [x a y b] [x y]))
+(def b #{3 4 5})
+b
+(set(for [x a y b] [x y]))
+(for [x a] (+ x 1))
+a
+(use 'edaa40.lab1 :reload)
+A
+a
+(every? #(contains? [1 1]) a)
+(every? #(contains? [1]) a)
+(every? #(contains? [%]) a)
+(every? #(contains? [% %]) a)
+(every? #(contains? 1 [% %]) a)
+(every? #(contains? a [% %]) a)
+(println(every? #(contains? a [% %]) a))
+(println(every? #(contains? a [1]) a))
+(println(every? #(contains? a [1 1]) a))
+(use 'edaa40.lab1 :reload)
+(use 'edaa40.lab1 :reload)¨
+(use 'edaa40.lab1 :reload)
+IS GUUD
+(use 'edaa40.lab1 :reload)
+[1]
+(use 'edaa40.lab1 :reload)
+( def c #{[1 1] [2 2]})
+c
+(rng c)
+( def c #{[1 3] [2 4]})
+(rng c)
