@@ -141,8 +141,12 @@
 
   [web current]
 
-  ...
-  hint: check out "rand"
+  (if (or (no-links? web current)
+  (< (rand) (- 1 alpha)))
+  (random-page web)
+  (random-link web current))
+  
+  ;;hint: check out "rand"
 
 )
 

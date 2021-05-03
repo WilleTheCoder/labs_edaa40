@@ -33,3 +33,13 @@ s
 (rand-nth (seq s))
 (use 'edaa40.lab2 :reload)
 exit()
+(use 'edaa40.lab2 :reload)
+(rand)
+(rand 1)
+(use 'edaa40.lab2 :reload)
+exit
+(page-rank TinyWeb 100000)
+exit
+(use 'edaa40.lab2 :reload)
+(page-rank TinyWeb 100000)
+exit
