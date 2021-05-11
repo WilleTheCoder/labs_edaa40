@@ -95,8 +95,6 @@
   
   [web page] 
   (empty? (image-of web page))
-  
-  
 )
 
 (test? "no-links? 1" (no-links? TinyWeb 0) false)
@@ -141,8 +139,8 @@
 
   [web current]
 
-  (if (or (no-links? web current)
-  (< (rand) (- 1 alpha)))
+  (if (or (no-links? web current) ;; if c has no links or the probability is < 1/10 -> go to random page
+  (< (rand) (- 1 alpha)))         ;; else go to random linked page from c
   (random-page web)
   (random-link web current))
   
