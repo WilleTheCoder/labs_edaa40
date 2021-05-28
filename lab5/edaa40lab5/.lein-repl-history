@@ -1,0 +1,73 @@
+(use 'edaa40.lab5 :reload)
+(use 'edaa40.lab5 :reload)'
+(use 'edaa40.lab5 :reload)
+(defn h ["a", "a" ,"b", "c","a", "b")
+(defn h ["a", "a" ,"b", "c" ,"a", "b"))
+(defn x 1)
+(defn "x" 1)
+(def "x" 1)
+(def x 1)
+(def h ["a", "a" ,"b", "c" ,"a", "b"))
+(def h ["a", "a" ,"b", "c" ,"a", "b"])
+h
+(frequencies h)
+(h 1)
+(h 2
+)
+(h 3)
+(a 1)
+(h (a 1)
+)
+(keys h)
+h
+keys h
+def h [1 2 3 6 9 2 4 2 1 9 4 5]
+h
+def k [1 2 3 6 9 2 4 2 1 9 4 5]
+k
+l
+(def k [1 2 3 6 9 2 4 2 1 9 4 5])
+k
+(frequencies k)
+(keys k)
+keys k
+((keys k) 1)
+(keys k 1)
+(keys k)1
+(keys k) 2
+(keys k) 5
+(keys k) 331
+(def l (keys k))
+l
+l 1
+l 5
+l 1001
+h
+(frequencies h)
+(def j frequencies h)
+(def j (frequencies h))
+j
+keys j
+(keys j)
+(use 'edaa40.lab5 :reload)
+(def SimpleSequence [:a :a :a :b :b :c :a :a :b :a :c :b :d :a :a])
+(def y [:a :a :a :b :b :c :a :a :b :a :c :b :d :a :a])
+y
+(def u {:d '(0 0 0) :c '(0 0 1) :b '(0 1) :a '(1)})
+u
+u 1
+u 6
+(u 1)
+(u a)
+(u :a)
+(u :b)
+(u :c)
+(u :d)
+(use 'edaa40.lab5 :reload)
+0
+(0)
+'(0)
+(use 'edaa40.lab5 :reload)
+'(hej)
+(hej)
+(use 'edaa40.lab5 :reload)
